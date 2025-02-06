@@ -22,16 +22,25 @@
 
 .logo-normal {
   color: #fff; /* Parte "Snack" en blanco */
+
+  display: inline-block;
+  font-size: 1.1em;
+  transform: scale(1, 1.2);
+  transform-origin: bottom left;
 }
 
 .logo-highlight {
   color: #e74c3c; /* Última "S" en rojo */
+
+  font-size: 1em; /* Tamaño base */
+  vertical-align: baseline; /* Mantiene la S al mismo nivel */
+  text-transform: uppercase;
 }
 
 /* Títulos y párrafos */
 h1 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 p {
